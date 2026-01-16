@@ -1,0 +1,14 @@
+python-dateutil
+psutil
+pandas
+numpy
+gymnasium
+stable-baselines3[extra]
+torch  # stable-baselines3 needs a torch backend
+pygetwindow
+pywin32; platform_system == "Windows"
+pyobjc; platform_system == "Darwin"
+python-xlib; platform_system == "Linux"
+plyer
+streamlit
+requests
